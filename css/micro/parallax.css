@@ -10,7 +10,7 @@
 }
 
 #Parallax { 
-    background: url(../../img/6.jpg) 50% 0 fixed; 
+    background: url(../img/6.jpg) 50% 0 fixed; 
 	height: auto;  
 	margin: 0 auto; 
     width: 100%; 
