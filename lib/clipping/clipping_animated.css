@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body,
+.wrap {
+  height: 100%;
+  margin: 0;
+}
+.wrap {
+  background: url(../../img/e.jpg) no-repeat; 
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18em;
+	padding-top: 120px; 
+	padding-left: 190px; 
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0,0,0, .4);
+  -webkit-animation: path 2s ease-in forwards;
+}
+
+@-webkit-keyframes path {
+  0% {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  100% {
+  -webkit-clip-path: polygon(320px 417px,351px 417px,350px 397px,361px 372px,372px 335px,381px 289px,396px 244px,400px 204px,426px 157px,447px 122px,470px 79px,809px 88px,792px 585px,117px 585px,112px 4px,117px 14px,156px 52px,202px 77px,250px 94px,283px 130px,306px 165px,333px 218px,340px 277px,327px 304px,325px 356px,308px 397px);;
+    }
+  }
+}
