@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAYA Dashboard</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/widget.js"></script>
+  </head>
+  <body>
+
+<!-- Header
+_______________________________________________________ -->
+
+  <div class="fixed">
+    <nav class="top-bar" id="header" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="top-bar name" id="header">
+          <h1>NAYA Dashboard</h1>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+<!-- Left Panel
+_______________________________________________________ -->
+    
+  <div class="row">
+    <div class="medium-3 columns" id="left-panel">
+      <h2>Meeting Rooms</h2>
+      <div id="roomList">
+
+      </div>
+      <h2>Employee In/Out Status</h2>
+      <div id="employeeList">
+
+      </div>
+    </div>
+
+<!-- Center Panel
+_______________________________________________________ -->
+
+    <div class="medium-6 columns" id="center-panel">
+      <h4> Message Board </h4>
+
+      <div class="department" id="yes">
+        <h5>Executive Director</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div>
+
+      <div class="department" id="yes">
+        <h5>Youth and Education Services</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div>
+
+      <div class="department" id="yes">
+        <h5>Family Services</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div>
+
+      <div class="department" id="yes">
+        <h5>Homeless Youth</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div>
+
+      <div class="department" id="yes">
+        <h5>Early College Academy</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div>            
+
+      <div class="department" id="yes">
+        <h5>Information Technology</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div> 
+
+      <div class="department" id="yes">
+        <h5>Finance</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div> 
+
+      <div class="department" id="yes">
+        <h5>Development</h5>
+        <textarea placeholder="Put department update here"></textarea>
+        <a href="#" class="button small">Edit</a>
+        <a href="#" class="button small">Update</a>
+      </div> 
+
+    </div>
+
+
+
+
+<!-- Right Panel
+_______________________________________________________ -->
+
+    <div class="medium-3 columns" id="right-panel">
+      <form>
+        <div class="row">
+          <h4>Flier Upload</h4>
+          <input type="text" placeholder="Flier Title">
+          <a href="#" class="button small">Upload File</a>
+        </div>
+        
+
+
+        <div class="row" role="link input">
+          <h4>Links<h4>
+          <input type="text" placeholder="link description"></input>
+          <div class="row collapse">
+            <div class="small-3 large-2 columns">
+              <span class="prefix">http://</span>  
+            </div>
+            <div class="small-9 large-10 columns">
+              <input type="text" placeholder="Enter your URL...">
+            </div>
+            <a href="#" class="button small">Upload Link</a>
+          </div>
+        </div>
+      </form>
+
+      <br><br>
+
+      <ul id="flier-list">
+        <h4>Flier List</h4>
+        <li><a href="#"> Summer Ascend Application </a></li>
+        <li><a href="#"> Camp Rise Application </a></li>
+      </ul>
+
+      <br>
+
+      </ul>
+      <ul id="link-list">
+        <h4>Link List</h4>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">IT Request</a></li>
+    </div>
+  </div>
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
