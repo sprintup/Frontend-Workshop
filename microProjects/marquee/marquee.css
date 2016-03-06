@@ -2,14 +2,14 @@ body {
 	background: #000;
 }
 
-#wrapper {
+#marquee_wrapper {
 	margin: auto;
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	width: 545px;
+	width: 100%;
 	height: 545px;
 	background: url('ht') no-repeat;
 	background-size: 80%;
@@ -56,46 +56,46 @@ li:nth-child(3n+3) {
 	animation-delay: 400ms;
 };
 
-#top {
+#marquee_top {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-#top li {
+#marquee_top li {
 	float: left;
 	margin-left: 5px;
 }
-#right {
+#marquee_right {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
-#right li {
+#marquee_right li {
 	margin-bottom: 5px;
 }
 
-#bottom {
+#marquee_bottom {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	transform: rotate(180deg);
 }
 
-#bottom li {
+#marquee_bottom li {
 	float: left;
 	margin-right: 5px;
 }
 
-#left {
+#marquee_left {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	transform: rotate(180deg);
 }
 
-#left li {
+#marquee_left li {
 	margin-bottom: 5px;
 }
 
