@@ -35,7 +35,10 @@
     <link rel="stylesheet" href="lib/marquee/marquee.css" type="text/css">
 
     <!-- Clipping -->
-    <link rel="stylesheet" href="lib/clipping/clipping_animated_index.css" type="text/css">
+    <link rel="stylesheet" href="lib/clipping/clipping_index.css" type="text/css">
+
+    <!-- Calc -->
+    <link rel="stylesheet" href="lib/calc/calc_index.css" type="text/css">
 
 </head>
 
@@ -66,8 +69,9 @@
                           <li><a class="page-scroll" href="#Snowflakes">Snowflakes</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Basic<span class="caret"></span></a>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Elements<span class="caret"></span></a>
                         <ul class="dropdown-menu">
+                          <li><a class="page-scroll" href="#Calc">Calc</a></li>
                           <li><a class="page-scroll" href="#Pictures">Pictures</a></li>
                           <li><a class="page-scroll" href="#Slanted_Seperator">Slanted Seperator</a></li>
                           <li><a class="page-scroll" href="#Buttons">Buttons</a></li>
@@ -153,17 +157,17 @@
         </div>
     </section>
 
-<!-- Aside -->
+    <!-- Aside -->
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Ok that's it... Just kidding.</h2>
-                <hr>
-                <a href="https://github.com/sprintup/frontend-workshop" class="btn btn-default btn-xl wow tada">Codes</a>
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Ok that's it... Just kidding.</h2>
+                    <hr>
+                    <a href="https://github.com/sprintup/frontend-workshop" class="btn btn-default btn-xl wow tada">Codes</a>
+                </div>
             </div>
-        </div>
-    </aside>
+        </aside>
 
 <!-- Marquee -->
 
@@ -235,6 +239,16 @@
         <div class="clippingWrap">
             <h1>Clipping Tree</h1>
         </div>
+        <!-- Aside -->
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>This clipping is performed via CSS and keyframes.</h2>
+                    <hr>
+                    <a onclick="window.location.reload()" class="btn btn-default btn-xl wow flash">Watch</a>
+                </div>
+            </div>
+        </aside>
     </section>
 
 
@@ -337,9 +351,19 @@
     </section>
 
 
-<!-- Basic  -->
+<!-- Elements  -->
 
-    <section id="Basic">
+    <section>
+        <div id="Calc" class="calc">
+            <div class="calcCard">
+              <img src="img/b.jpg">
+              <h3>My Awesome Adventure</h3>
+              <p>Here we have used the css calc() function to eliminate the padding on either side of the photo box. 
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div id="Slanted_Seperator" class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">

@@ -1,0 +1,47 @@
+/* BASE STYLES */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font: 1em/1.5 sans-serif;
+	padding-top: 2em;
+	color: #222;
+}
+h2 {
+	margin-top: 0;
+}
+img {
+	max-width: 100%;
+}
+.row {
+  width: 95%;
+  margin: auto;
+}
+
+/* CALC STYLES */
+
+@media (min-width: 769px) {
+	[class^="col-"] {
+		float: left;
+		padding: 0 1rem;
+	}
+	.col-1 {
+		width: calc(100% / 12)
+	}
+	.col-2 {
+		width: calc(100% / 12 * 2);
+	}
+	.col-3 {
+		width: calc(100% / 12 * 3)
+	}
+	.col-4 {
+		width: calc(100% / 12 * 4);
+	}
+	.col-5 {
+		width: calc(100% / 12 * 5)
+	}
+	.col-6 {
+		width: calc(100% / 12 * 6);
+	}
+}

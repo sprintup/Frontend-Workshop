@@ -1,0 +1,30 @@
+/* BASE STYLES */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-shadow: 0 1px 0 rgba(0,0,0,.35);
+}
+h1 {
+	font-size: 4.8em;
+	margin: 0;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	width: 40%;
+}
+
+/* CALC STYLES */
+
+.main-header {
+	min-height: 400px;
+	padding: 1.5em 0 0 2.5em;
+	background: url(../../img/crab.png), url(../../img/b.jpg);
+	background-repeat: no-repeat;
+	background-position: calc(100% - 40px) calc(100% + 120px), 50%;
+}

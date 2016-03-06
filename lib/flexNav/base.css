@@ -1,0 +1,61 @@
+/* --------------------------
+  Base Styles
+--------------------------- */
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  color: #797e83;
+  font-size: 16px;
+	margin: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5; 
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+}
+
+a {
+  color: #656a6e;
+  text-decoration: none;
+  font-weight: 400; 
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media (min-width: 769px) {
+	.main-content {
+		margin-top: 4em;
+	}
+	p {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 2.5em;
+	
+		-moz-column-count: 2;
+		-moz-column-gap: 2.5em;
+	
+		column-count: 2;
+		column-gap: 2.5em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1080px;
+	}
+}
