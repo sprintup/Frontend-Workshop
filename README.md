@@ -10,3 +10,6 @@ Things that I learned are included in the related README files in their respecti
 * Preventing CSS Attribute collisions and modularizing CSS code
 * Working with [Github pages](https://pages.github.com/)
 * [CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+* Practice with the box model
+* The difference between a [section and a div](http://stackoverflow.com/questions/6939864/what-is-the-difference-between-section-and-div)
+* Live CSS editing using chrome dev tools

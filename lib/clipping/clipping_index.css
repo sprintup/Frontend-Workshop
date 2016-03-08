@@ -4,18 +4,21 @@
 
 html,
 body,
-.clippingWrap {
+.clippingImage {
   height: 100%;
   margin: 0;
 }
-.clippingWrap {
+.clippingImage {
   background: url(../../img/e.jpg) no-repeat; 
-  background-position: 0px 0px;
-  background-size: 100%; 
+  /*background-position: 200px 200px;*/
+  /*background-size: 100% 100%; */
+  background-size: cover; 
   background-repeat: no-repeat;
+  /*background-position: 0px 0px;*/
+  /*background-size: 100%; */
 }
 
-#clipping {
+#clippingTreeText {
   font-family: Helvetica, sans-serif;
   color: #fff;
   font-size: 18em;
