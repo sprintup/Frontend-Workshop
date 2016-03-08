@@ -12,7 +12,7 @@ body,
   background: url(../../img/e.jpg) no-repeat; 
 }
 
-h1 {
+#clipping {
   font-family: Helvetica, sans-serif;
   color: #fff;
   font-size: 18em;
