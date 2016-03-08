@@ -9,3 +9,4 @@ Things that I learned are included in the related README files in their respecti
 * [code folding](http://wesbos.com/sublime-text-code-folding/) with Sublime Text
 * Preventing CSS Attribute collisions and modularizing CSS code
 * Working with [Github pages](https://pages.github.com/)
+* [CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)

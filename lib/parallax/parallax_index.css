@@ -1,32 +1,20 @@
 .parallax1 { 
-    background: url(../../img/f.jpg) 50% 0 fixed; 
-    background-size: cover;
-
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-
-    height: auto;  
-    margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
-    padding: 200px 0;
-}
-/*#parallax2 { 
-    background: url(../../img/e.jpg) 50% 0 fixed; 
-    height: auto;  
-    margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
+    /*background: url(../../img/f.jpg); */
+    background-color: #00A7E1; 
+    background-image: url(../../img/f.jpg); 
+    background-position: 0% 50%;
+    background-size: 100% 100%; 
+    background-repeat: repeat;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 200px 0;
-    background-size: cover;
 }
-#parallax3 { 
-    background: url(../../img/g.jpg) 50% 0 fixed; 
-    height: auto;
-    margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 100px 0;
-    color: #fff;
+/*.parallax1 {
+    background: 
+    color 
+    image 
+    position/size 
+    repeat origin 
+    clip 
+    attachment 
+    initial|inherit;
 }*/

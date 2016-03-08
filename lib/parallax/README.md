@@ -4,3 +4,5 @@
 * Twitter bootstrap has data-speed="6" data-type="background" attributes 
 * Before speed is 6, during is 4 and after is 2
 * [jQuery with CSS](https://css-tricks.com/perfect-full-page-background-image/)
+* [!important](https://css-tricks.com/when-using-important-is-the-right-choice/)
+* [background property](background | CSS-Tricks)

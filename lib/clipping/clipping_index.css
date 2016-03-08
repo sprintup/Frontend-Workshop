@@ -10,13 +10,16 @@ body,
 }
 .clippingWrap {
   background: url(../../img/e.jpg) no-repeat; 
+  background-position: 0px 0px;
+  background-size: 100%; 
+  background-repeat: no-repeat;
 }
 
 #clipping {
   font-family: Helvetica, sans-serif;
   color: #fff;
   font-size: 18em;
-	padding-top: 120px; 
+	padding-top: 200px; 
 	padding-left: 190px; 
   margin: 0;
   text-shadow: 2px 2px 5px rgba(0,0,0, .4);
