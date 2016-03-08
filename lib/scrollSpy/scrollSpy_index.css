@@ -1,0 +1,26 @@
+[class^="scrollSpy-"] {
+
+	body {
+	    position: relative;
+	}
+	ul.nav-pills {
+	    top: 20px;
+	    position: fixed;
+	}
+	div.col-sm-9 div {
+	    height: 250px;
+	    font-size: 28px;
+	}
+	#section1 {color: #fff; background-color: #1E88E5;}
+	#section2 {color: #fff; background-color: #673ab7;}
+	#section3 {color: #fff; background-color: #ff9800;}
+	#section41 {color: #fff; background-color: #00bcd4;}
+	#section42 {color: #fff; background-color: #009688;}
+
+	@media screen and (max-width: 810px) {
+		#section1, #section2, #section3, #section41, #section42  {
+			margin-left: 150px;
+		}
+	}
+
+}

@@ -11,7 +11,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 545px;
-	background: url('ht') no-repeat;
+	/*background: url('ht') no-repeat;*/
 	background-size: 80%;
 	background-position: 50% 50%;
 }
