@@ -6,3 +6,5 @@
 * [jQuery with CSS](https://css-tricks.com/perfect-full-page-background-image/)
 * [!important](https://css-tricks.com/when-using-important-is-the-right-choice/)
 * [background property](background | CSS-Tricks)
+* Float property will only work if position property is set first.
+* Relative position property will look for first ancestor that has position set. 

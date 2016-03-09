@@ -1,17 +1,17 @@
-body {
+#marquee_row {
   background: #000;
 }
 
 #marquee_wrapper {
   margin: auto;
-  /*position: absolute;*/
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 545px;
   height: 545px;
-  /*background: url('') no-repeat;*/
+  background: url('../../img/d.jpg') no-repeat;
   background-color: #000;
   background-size: 80%;
   background-position: 50% 50%;
@@ -58,7 +58,7 @@ ul {
 }
 
 #marquee_wrapper #marquee_top {
-  /*position: absolute;*/
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -69,7 +69,7 @@ ul {
 }
 
 #marquee_wrapper #marquee_right {
-  /*position: absolute;*/
+  position: absolute;
   top: 0;
   right: 0;
 }
@@ -79,7 +79,7 @@ ul {
 }
 
 #marquee_wrapper #marquee_bottom {
-  /*position: absolute;*/
+  position: absolute;
   bottom: 0;
   right: 0;
   transform: rotate(180deg);
@@ -91,7 +91,7 @@ ul {
 }
 
 #marquee_wrapper #marquee_left {
-  /*position: absolute;*/
+  position: absolute;
   bottom: 0;
   left: 0;
   transform: rotate(180deg);
