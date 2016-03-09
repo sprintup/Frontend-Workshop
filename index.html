@@ -40,6 +40,9 @@
     <!-- Accordian -->
     <link rel="stylesheet" href="lib/accordion/accordion_index.css" type="text/css">
 
+    <!-- Collapsible -->
+    <link rel="stylesheet" href="lib/collapsible/collapsible_index.css" type="text/css">
+
     <!-- Calc -->
     <link rel="stylesheet" href="lib/calc/calc_index.css" type="text/css">
 </head>
@@ -49,13 +52,19 @@
 <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
+             <div class="navbar-header">
+                 <a class="navbar-brand page-scroll" href="#page-top">Stephen Printup</a>
+             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Backgrounds<span class="caret"></span></a>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Elements<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a class="page-scroll" href="#Parallax">Parallax</a></li>
-                          <li><a class="page-scroll" href="#Clipping">Clipping</a></li>
                           <li><a class="page-scroll" href="#Marquee">Marquee</a></li>
+                          <li><a class="page-scroll" href="#Accordion">Accordion</a></li>
+                          <li><a class="page-scroll" href="#Collapsible">Collapsible</a></li>
+                          <li><a class="page-scroll" href="#Clipping">Clipping</a></li>
+                          <li><a class="page-scroll" href="#Calc">Calc()</a></li>
                           <!-- <li><a class="page-scroll" href="#Videos">Videos</a></li> -->
                           <!-- <li><a class="page-scroll" href="#Snowflakes">Snowflakes</a></li> -->
                         </ul>
@@ -97,14 +106,14 @@
                           <li><a class="page-scroll" href="#Diamond">Diamond</a></li>
                         </ul>
                     </li> -->
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">New<span class="caret"></span></a>
+                    <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">New<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a class="page-scroll" href="#CSS3">CSS3</a></li>
                           <li><a class="page-scroll" href="#Marquee">Marquee</a></li>
-                          <!-- <li><a class="page-scroll" href="#HTML5">HTML5</a></li> -->
-                          <!-- <li><a class="page-scroll" href="#ECMA6">ECMA6</a></li> -->
+                          <li><a class="page-scroll" href="#HTML5">HTML5</a></li>
+                          <li><a class="page-scroll" href="#ECMA6">ECMA6</a></li>
                         </ul>
-                    </li>
+                    </li>--> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -160,25 +169,6 @@
             </div>
         </div>
     </section>
-
-<!-- Clipping -->
-    <aside id="Clipping" class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Clipping</h2>
-                <hr>
-                <p>This clipping is performed via CSS3 animations. I've learned how CSS impacts different layers of content, for instance, how the clipped segment interacts with the text and how their both layed out on the image at different screen sizes.</p>
-                <a onclick="window.location.reload()" class="btn btn-default btn-xl wow flash">Watch</a>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Begin -->
-    <div class="clipping_container">
-        <div class="clippingImage">
-            <h1 id="clippingTreeText">Clipping Tree</h1>
-        </div>
-    </div>
 
 <!-- Marquee -->
         <aside id="Marquee" class="bg-dark">
@@ -242,12 +232,12 @@
     </div>
 
 <!-- Accordian -->
-    <aside id="Accordian" class="bg-dark">
+    <aside id="Accordion" class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Accordian</h2>
+                <h2>Accordion</h2>
                 <hr>
-                <p>Here is a pure CSS accordian that uses the checked psuedo class and radio checked elements. A big thanks to <a href="https://www.teamtreehouse.com">treehouse</a> again for the great tutorial. I learned more about CSS selectors, including the ~ selector. I also learned more about em units. Please enjoy some Johnny Depp ipsum...</p>
+                <p>Here is a pure CSS accordion that uses the checked psuedo class and radio checked elements. A big thanks to <a href="https://www.teamtreehouse.com">treehouse</a> again for the great tutorial. I learned more about CSS selectors, including the ~ selector. I also learned more about em units and using psuedo classes. Please enjoy some Johnny Depp ipsum...</p>
             </div>
         </div>
     </aside>
@@ -257,39 +247,96 @@
         <div class="tab-group">
             <div class="tab">
                 <input id="tab-one" type="radio" name="tabs">
-                <label for="tab-one">Label One</label>
+                <label for="tab-one">Scene One</label>
                 <div class="tab-content">
                     <p>Me? i'm dishonest, and a dishonest man you can always trust to be dishonest. honestly. it's the honest ones you want to watch out for, because you can never predict when they're going to do something incredibly... stupid. we're not sheep! </p>
                 </div>
             </div>
             <div class="tab">
                 <input id="tab-two" type="radio" name="tabs">
-                <label for="tab-two">Label Two</label>
+                <label for="tab-two">Scene Two</label>
                 <div class="tab-content">
                     <p>holy jesus. what are these goddamn animals? we are very much alike, you and i, i and you... us. we had two bags of grass, seventy-five pellets of mescaline, five sheets of high-powered blotter acid, a saltshaker half-full of cocaine, and a whole galaxy of multi-colored uppers, downers, screamers, laughers... </p>
                 </div>
             </div>
             <div class="tab">
                 <input id="tab-three" type="radio" name="tabs">
-                <label for="tab-three">Label Three</label>
+                <label for="tab-three">Scene Three</label>
                 <div class="tab-content">
                     <p>forget about it" is, like, if you agree with someone, you know, like "raquel welch is one great piece of ass. forget about it!" but then, if you disagree, like "a lincoln is better than a cadillac? forget about it!" you know? but then, it's also like if something's the greatest thing in the world, like, "minghia! those peppers! forget about it!" </p>
                 </div>
             </div>
             <div class="tab">
                 <input id="tab-four" type="radio" name="tabs">
-                <label for="tab-four">Label Four</label>
+                <label for="tab-four">Scene Four</label>
                 <div class="tab-content">
                     <p>do you like my meadow? try some of my grass! please have a blade, please do, it's so delectable and so darn good looking! well, then, i confess, it is my intention to commandeer one of these ships, pick up a crew in tortuga, raid, pillage, plunder and otherwise pilfer my weasely black guts out. giddy-up... no, no this way... good horsey. </p>
                 </div>
             </div>
             <div class="tab">
                 <input id="tab-five" type="radio" name="tabs">
-                <label for="tab-five">Label Five</label>
+                <label for="tab-five">Scene Five</label>
                 <div class="tab-content">
                     <p>what? no. we can't stop here. this is bat country. a drug person can learn to cope with things like seeing their dead grandmother crawling up their leg with a knife in her teeth. but no one should be asked to handle this trip.</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+<!-- Collapsible -->
+    <aside id="Collapsible" class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Collapsible</h2>
+                <hr>
+                <p>There is a lot of built in functionallity with frameworks like Bootstrap. One such tool is the simple <a href="http://www.w3schools.com/bootstrap/bootstrap_collapse.asp">collapsible</a>. During this project I learned about the variety of <a href="http://v4-alpha.getbootstrap.com/components/buttons/">bootstrap buttons</a> and <a href="http://daneden.github.io/animate.css/">animations</a> that are availible. I also learned about the bootstrap <a href="https://getbootstrap.com/examples/grid/">grid layout</a>.</p>
+            </div>
+        </div>
+    </aside>
+
+    <div id="collapsible" class="row">
+      <button type="button" class="btn btn-primary btn-xl wow bounceInDown" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+      <div id="demo" class="collapse">
+        <span class="col-md-4"></span>
+        <p class="col-md-4">You can expand your content here. This tool is simple, yet effective for saving space and keeping your website clean. It can be used instead of the accordian, which requires multiple sections of content to sift through. This collapsible requires only some content and you can close this after opening it.</p>
+      </div>
+    </div>
+
+<!-- Clipping -->
+    <aside id="Clipping" class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Clipping</h2>
+                <hr>
+                <p>This clipping is performed via CSS3 animations. I'm learning how CSS impacts different layers of content, for instance, how the clipped segment interacts with the text and how they're both layed out on the image at different screen sizes. I also learned about using polygons in CSS.</p>
+                <a onclick="window.location.reload()" class="btn btn-default btn-xl wow flash">Watch</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Begin -->
+    <div class="clipping_container">
+        <div class="clippingImage">
+            <h1 id="clippingTreeText">Clipping Tree</h1>
+        </div>
+    </div>
+
+<!-- Calc() -->
+    <aside id="Calc" class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Calc()</h2>
+                <hr>
+                <p>The calc() function dynamically removes the padding from the sides of this image so it fits well with the text at all screen sizes. This project helped me better understand the box model and responsive design.</p>
+            </div>
+        </div>
+    </aside>
+
+    <div id="Calc" class="calc">
+        <div class="calcCard">
+          <img src="img/b.jpg">
+          <h3>My Awesome Adventure At Crater Lake</h3>
+          <p>Many people don't know that the water is so blue because it is so deep and clean. Shallow regions of the lake are deceptively deep because we usually can't see so far down. This lake is the deepest freshwater body of water in the United States at 1,932 feet. </p> 
         </div>
     </div>
 
@@ -409,16 +456,6 @@
 <!-- Elements  -->
 
     <section>
-        <div id="Calc" class="calc">
-            <div class="calcCard">
-              <img src="img/b.jpg">
-              <h3>My Awesome Adventure</h3>
-              <p>Here we have used the css calc() function to eliminate the padding on either side of the photo box. 
-            </div>
-        </div>
-    </section>
-
-    <section>
         <div id="Slanted_Seperator" class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -530,29 +567,8 @@
       <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
-    <div id="Clipping_Mask" class="container-fluid">
-      <h1>Section 4 Submenu 2</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
 
-<!-- New -->
 
-    <div id="CSS3" class="container-fluid">
-      <h1>Section 4 Submenu 1</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="HTML5" class="container-fluid">
-      <h1>Section 4 Submenu 2</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="ECMA6" class="container-fluid">
-      <h1>Section 4 Submenu 2</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
