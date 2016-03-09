@@ -1,0 +1,120 @@
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);*/
+/*==================================== 
+  Our Modal Window styles
+  -modal holds modal overlay
+  -modal overlay holds modal wrap
+  -there is no modal trigger
+  -parent '>' child: selects all elements with parent element; 
+=====================================*/
+/* background of launch modal button */
+.modal {
+  background: #F76C5E;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 1em;
+  position: relative;
+}
+/* label 'launch modal' */
+.modal > label {
+  background: #FFD300;
+  border: 1px solid #f0c600;
+  border-radius: 2em;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  text-shadow: 1px 1px 1px #fff;
+  transition: all 0.55s;
+}
+/* makes button grow on hover */
+.modal > label:hover {
+  transform: scale(1.97);
+}
+/* the actual modal pop-up, including it's background */
+.modal__overlay {
+  background: #F68E5F;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: none;
+  top: 0;
+  z-index: 600;
+}
+/* div inside of the modal overlay that lays out content */
+.modal__wrap {
+  padding: 1em 0;
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 90%;
+}
+/* x-button in modal pop-up */
+.modal__wrap label {
+  background: #F5DD90;
+  border-radius: 50%;
+  color: #324376;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.5em;
+  line-height: 1.5;
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  width: 1.5em;
+}
+/* the header of the modal pop-up */
+.modal__wrap h2 {
+  color: #FFD300;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+/* the paragraph of the modal wrap */
+.modal__wrap p {
+  color: #FFD300;
+  text-align: justify;
+}
+.modal input:focus ~ label {
+  transform: scale(0.97);
+}
+/*==================================== 
+  Our Modal action styles
+=====================================*/
+input {
+  position: absolute;
+  top: -1000px;
+}
+.modal__overlay {
+  opacity: 0;
+  z-index: -100;
+  transform: scale(0.5);
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+input:checked ~ .modal__overlay {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 800;
+}
+/*==================================== 
+  Media Queries
+=====================================*/
+@media (min-width: 43.75em) {
+  .modal {
+    padding: 1.5em;
+  }
+}
+@media (min-width: 50em) {
+  .modal__wrap {
+    padding: 1.75em;
+  }
+}
+@media (min-height: 37.5em) {
+  .modal__wrap {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -80%);
+  }
+}
