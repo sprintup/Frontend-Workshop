@@ -13,3 +13,5 @@ Things that I learned are included in the related README files in their respecti
 * Practice with the box model
 * The difference between a [section and a div](http://stackoverflow.com/questions/6939864/what-is-the-difference-between-section-and-div)
 * Live CSS editing using chrome dev tools
+* Using CDNs 
+* Bootstrap

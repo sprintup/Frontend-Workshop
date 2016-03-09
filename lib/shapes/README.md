@@ -1,0 +1,4 @@
+* circle
+* square
+* triangle
+* diamond
