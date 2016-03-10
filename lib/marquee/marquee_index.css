@@ -1,3 +1,14 @@
+/*Media Queries*/
+@media (max-width: 545px) {
+  #Marquee {
+    display: none;
+  }
+}
+
+#Marquee {
+  background: #000;
+}
+
 #marquee_row {
   background: #000;
 }
@@ -111,6 +122,7 @@ ul {
                       0px 0px 0px 0px rgba(255,255,190,0);
   }
 }
+
 
 
 
