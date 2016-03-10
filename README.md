@@ -15,3 +15,4 @@ Things that I learned are included in the related README files in their respecti
 * Live CSS editing using chrome dev tools
 * Using CDNs 
 * Bootstrap
+* Mobile [collapsible nav bar](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php)
