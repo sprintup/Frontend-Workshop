@@ -18,3 +18,9 @@
     attachment 
     initial|inherit;
 }*/
+/*Media Queries*/
+@media (max-width: 400px) {
+    .parallax1 {
+        box-shadow: none;
+    }
+}

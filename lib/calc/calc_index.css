@@ -23,3 +23,13 @@ img {
 	max-width: calc(100% + 3em);
 	margin-left: -1.5em;
 }
+
+/*Media Queries*/
+@media (max-width: 400px) {
+	#notThis {
+		display: none;
+	}
+	 .calcCard {
+	 	width: 95%;
+	 }
+}
