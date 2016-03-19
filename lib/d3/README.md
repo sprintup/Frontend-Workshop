@@ -1,0 +1,5 @@
+[treehouse tutorial](https://teamtreehouse.com/library/d3js)
+* [d3 wiki](https://github.com/mbostock/d3/wiki/API-Reference)
+* [examples](https://github.com/mbostock/d3/wiki/Gallery)
+* [bl.ocks.org/](http://bl.ocks.org/)
+* [csv](https://en.wikipedia.org/wiki/Comma-separated_values)

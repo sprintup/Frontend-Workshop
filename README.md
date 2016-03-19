@@ -16,3 +16,8 @@ Things that I learned are included in the related README files in their respecti
 * Using CDNs 
 * Bootstrap
 * Mobile [collapsible nav bar](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php)
+* css element [keycodes](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
+* [event handlers](http://idratherbewriting.com/events-and-listeners-javascript/)
+* $(document).ready( function () {}): to be run only when the document is ready as per jQuery
+* jQuery [manipulation](http://api.jquery.com/category/manipulation/) using setters like .append()
+* [CSS psuedo-classes](http://www.w3schools.com/css/css_pseudo_classes.asp)

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Requests</title>
+ </head>
+ <body>
+   <div id="viz-wrapper"></div>
+ </body>
+ <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+ <script type="text/javascript">
+    var viz = d3.select("#viz-wrapper")
+                    .append('svg')
+                    .attr('id', 'viz');
+
+
+     d3.csv('climate_data.csv', function(data) {
+
+         dots = viz.selectAll('circle')
+                      .data(data)
+                      .enter()
+                     .append('circle');
+
+        dots.attr('r', function(d) {return d.TMAX});
+
+        dots.attr('r', function(d) {return Math.abs(d.TMAX)});
+
+        dots.attr('r', function(d) {return Math.abs(d.TMAX) / 100});
+
+     });
+ </script>
+</html>
