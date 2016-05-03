@@ -1,0 +1,66 @@
+.report-card {
+  text-align:center;
+}
+
+.badges {
+  margin:10px 10px 25px;
+  padding:0;
+}
+
+.badges li {
+  display:inline-block;
+  margin:2px;
+}
+
+.badges li img {
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(255,255,255,0.2)));
+}
+
+.badges li img:hover {
+  opacity:.7;
+  animation:badges 100ms;
+  -webkit-animation:badges 100ms;
+}
+
+@keyframes badges {
+  0% { margin: -17px 2px 0px 0px }
+  50% { margin: -27px 2px 0px 0px }
+  100% { margin: -17px 2px 0px 0px }
+}
+@-webkit-keyframes badges /* Safari and Chrome */ {
+  0% { margin: -17px 2px 0px 0px }
+  50% { margin: -27px 2px 0px 0px }
+  100% { margin: -17px 2px 0px 0px }
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+    } 100% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
